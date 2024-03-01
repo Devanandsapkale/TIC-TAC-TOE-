@@ -32,14 +32,15 @@ body{
     height: 18vmin;
     border-radius: 10px;
     box-shadow: 0 0 1rem rgba(0,0,0,0.5);
-    font-size: 40px;
+    font-size: 50px;
     background-color: rgb(252, 251, 251);
     color: black;
 }
 #reset-btn{
     width: 100px;
     height: 50px;
-    font-size: 20px;
+    margin-left: 10px;
+    font-size: 17px;
     border: none;
     border-radius: 10px;
     box-shadow:0,0, 1rem rgba(0,0,0,0.3) ;
@@ -49,4 +50,25 @@ body{
 h1{
     color: aliceblue;
     font-size: 50px;
+    margin-top: 50px;
+    color: rgb(252, 250, 250);
+}
+#reset-btn2{
+    width: 100px;
+    height: 50px;
+    font-size: 17px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow:0,0, 1rem rgba(0,0,0,0.3) ;
+    background-color: #1f2132;
+    color: white;
+}
+#msg{
+    color: antiquewhite;
+    font-size: 8vh;
+    margin-top:20px;
+}
+.hide{
+    display: none;
 }
